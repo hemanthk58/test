@@ -1,0 +1,15 @@
+#Calculate the average of numbers in a list
+input = [1, 2, 3, 4, 5]
+total = 0
+count = 0
+'''
+for i in input:
+    total +=i
+avg=total/len(input)
+print(avg)
+'''
+while count < len(input):
+    total += input[count]
+    count +=1
+avg=total/len(input)
+print(avg)
